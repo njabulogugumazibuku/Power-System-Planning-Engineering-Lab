@@ -35,3 +35,46 @@ A record of significant engineering and modelling decisions made during the proj
 ### 07 Glossary
 
 Definitions of planning, reliability, and energy system modelling terminology.
+
+## Folder Structure
+
+docs/
+│
+├── README.md
+│
+├── 01_kanyisa_background/
+│   ├── country_profile.md
+│   ├── planning_mandate.md
+│   ├── electricity_sector_overview.md
+│   └── geography.md
+│
+├── 02_system_data/
+│   ├── generation_fleet.md
+│   ├── demand_forecast.md
+│   ├── fuel_supply.md
+│   ├── renewable_resources.md
+│   └── transmission_network.md
+│
+├── 03_policy_and_constraints/
+│   ├── emissions_targets.md
+│   ├── reliability_standard.md
+│   ├── renewable_targets.md
+│   └── planning_assumptions.md
+│
+├── 04_study_guides/
+│   ├── study01.md
+│   ├── study02.md
+│   ├── study03.md
+│   └── ...
+│
+├── 05_methodology/
+│   ├── osemosys.md
+│   ├── timeslices.md
+│   ├── storage.md
+│   ├── adequacy.md
+│   ├── monte_carlo.md
+│   └── cvar.md
+│
+├── 06_engineering_decisions/
+│
+└── 07_glossary/
