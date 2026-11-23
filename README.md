@@ -60,6 +60,7 @@ You will need:
 - **Git** to clone the repository.
 - **Python 3.10 or later**.
 - **pip**, included with standard Python installations, to install the project and its development tools.
+- **OSeMOSYS**, the primary energy system optimisation framework used throughout the repository.
 - An optimisation solver such as **GLPK** or **CBC**.
 - A terminal and a code editor. VS Code or another Python-capable editor is suitable.
 
@@ -103,6 +104,19 @@ py -3 -m venv .venv
 If your system does not have the required Python version, install Python 3.10 or later before continuing.
 
 ### 3. Install the project
+
+This repository assumes OSeMOSYS is installed and operational.
+
+Follow the official OSeMOSYS installation instructions relevant to your operating system and preferred workflow.
+
+Install an optimisation solver such as:
+
+- GLPK
+- CBC
+
+Verify that the solver is accessible from your system before attempting to run any planning studies.
+
+Many studies within this repository depend on a functioning OSeMOSYS installation and optimisation backend.
 
 With the virtual environment activated, run:
 
